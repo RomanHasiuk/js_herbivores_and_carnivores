@@ -14,7 +14,7 @@ class Animal {
     const index = Animal.alive.indexOf(this);
 
     if (index > -1) {
-      Animal.alive.slice(index, 1);
+      Animal.alive.splice(index, 1);
     }
   }
 }
